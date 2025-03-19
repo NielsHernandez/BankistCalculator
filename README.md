@@ -1,21 +1,17 @@
 # Bankist Calculator App
 
-This is a simple yet powerful calculator application inspired by the modern and clean design of the Bankist website. It provides basic arithmetic operations and a user-friendly interface.
+This is a simple yet powerful calculator application inspired by the modern and clean design of the Bankist website.
 
 ## Features
 
-* **Basic Arithmetic:** Addition, subtraction, multiplication, and division.
-* **Clean and Modern UI:** Inspired by the Bankist website's aesthetic for a visually appealing experience.
-* **Responsive Design:** Works seamlessly on various screen sizes.
-* **Clear Button Layout:** Intuitive button arrangement for easy operation.
+* **Bank operations:** Couta nivelada, Couta sobre saldos, Extra-financimiento.
 * **Error Handling:** Displays error messages for invalid operations (e.g., division by zero).
 * **Clear Display:** Shows the current input and result clearly.
 
 ## Technologies Used
 
-* **HTML:** For the structure of the calculator.
-* **CSS:** For styling and layout.
-* **JavaScript:** For the calculator logic and interactivity.
+* **C# 12:** For the structure of the calculator.
+
 
 ## Getting Started
 
@@ -67,10 +63,3 @@ This project is licensed under the [Your License] License - see the [LICENSE.md]
 ## Author
 
 [Your Name] - [Your GitHub Profile Link]
-
-## Screenshots
-
-*(Optional: Add screenshots of the calculator here)*
-
-![Calculator Screenshot 1](path/to/screenshot1.png)
-![Calculator Screenshot 2](path/to/screenshot2.png)
