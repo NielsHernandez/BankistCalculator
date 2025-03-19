@@ -19,8 +19,8 @@ This is a simple yet powerful calculator application inspired by the modern and 
     ```bash
     git clone [your-repository-url]
     ```
-2.  **Open `index.html`:**
-    * Navigate to the cloned directory and open the `index.html` file in your web browser.
+2.  **Open `navigate to the bankist folder and run the program.cs`:**
+    * Navigate to the cloned directory and open the `program.cs` file in visual sutdio/code .net framework required.
 
 ## Usage
 
@@ -58,8 +58,5 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 ## License
 
-This project is licensed under the [Your License] License - see the [LICENSE.md](LICENSE.md) file for details.
+Open
 
-## Author
-
-[Your Name] - [Your GitHub Profile Link]
