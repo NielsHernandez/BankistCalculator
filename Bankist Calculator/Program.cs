@@ -1,5 +1,11 @@
 ﻿printText("**********- Welcome -***********");
 
+int option = 0;
+
+
+
+while(option != -1) {
+
 displayMenu();
 
 string selectedValue = inputString();
@@ -8,7 +14,7 @@ string selectedValue = inputString();
 
 userRequest(selectedValue);
 
-
+}
 
 //adding menu options
 void displayMenu()
@@ -66,13 +72,21 @@ void userRequest(string selected)
 
 void coutaNivelada()
 {
-    printText("ingresa el monto del prestamo sin puntos ni comas ejemplo: 25000");
-    int montoPrestamo = Convert.ToInt32(inputString());
-    printText("ingresa la tasa de interes mensual del prestamo sin puntos ni comas ejemplo: 2");
-    int tasaMensual = Convert.ToInt32(inputString());
-    printText("ingresa el plazo en meses sin puntos ni comas ejemplo: 36");
-    int plazoMeses = Convert.ToInt32(inputString());
-    calculateCoutaNivelada(montoPrestamo, tasaMensual, plazoMeses);
+    try
+    {
+        printText("ingresa el monto del prestamo sin puntos ni comas ejemplo: 25000");
+        int montoPrestamo = Convert.ToInt32(inputString());
+        printText("ingresa la tasa de interes mensual del prestamo sin puntos ni comas ejemplo: 2");
+        int tasaMensual = Convert.ToInt32(inputString());
+        printText("ingresa el plazo en meses sin puntos ni comas ejemplo: 36");
+        int plazoMeses = Convert.ToInt32(inputString());
+        calculateCoutaNivelada(montoPrestamo, tasaMensual, plazoMeses);
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+        
+    }
 
 }
 
